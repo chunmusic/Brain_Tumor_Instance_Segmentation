@@ -1,4 +1,4 @@
-# Brain_Tumor_Semantic_Segmentation
+# Brain Tumor Semantic Segmentation
 
 - This repository is created to detect brain tumor with semantic segmentation.
 
