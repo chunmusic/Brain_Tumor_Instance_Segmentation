@@ -19,6 +19,4 @@ python video_demo.py brain_tumor.mp4
 
 ## Preview
 
-### With mask
-
 ![Image1](https://raw.githubusercontent.com/chunmusic/Brain_Tumor_Semantic_Segmentation/master/brain_tumor.gif)
