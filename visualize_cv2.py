@@ -6,7 +6,7 @@ import sys
 from mrcnn import utils
 from mrcnn import model as modellib
 
-import final
+import train_multiclass
 
 ROOT_DIR = os.path.abspath("./")
 MODEL_DIR = os.path.join(ROOT_DIR, "logs")
@@ -19,7 +19,7 @@ COCO_MODEL_PATH = os.path.join(ROOT_DIR, "mask_rcnn_brain_tumor_0030.h5")
 if not os.path.exists(COCO_MODEL_PATH):
     utils.download_trained_weights(COCO_MODEL_PATH)
 
-config = final.CustomConfig()
+config = train_multiclass.CustomConfig()
 
 
 class InferenceConfig(config.__class__):
