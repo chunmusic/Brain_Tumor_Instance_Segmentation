@@ -1,6 +1,6 @@
-# Brain Tumor Semantic Segmentation
+# Brain Tumor Instance Segmentation
 
-- This repository is created to detect brain tumor with semantic segmentation.
+- This repository is created to detect brain tumor with instance segmentation.
 
 - The model was trained based on Mask-RCNN with Tensorflow Object Detection API.
 
