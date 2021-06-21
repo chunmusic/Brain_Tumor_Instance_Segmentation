@@ -47,7 +47,7 @@ def log(text, array=None):
         else:
             text += ("min: {:10}  max: {:10}".format("",""))
         text += "  {}".format(array.dtype)
-    print(text)
+    #print(text) #to print output to terminal
 
 
 class BatchNorm(KL.BatchNormalization):
